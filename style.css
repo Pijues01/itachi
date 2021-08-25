@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background: #94928b;
+    
+}
+.player {
+    position: relative;
+    width: 350px;
+    background: #f1f3f4;
+    box-shadow: 20 50px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.player .imgbx{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+}
+.player .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    
+
+}
+.player audio{
+    width: 100%;
+    outline: none;
+    
+}
+.myname p{
+        font-family: 'Allison', cursive;
+        position: absolute;
+        bottom: 0;
+        
+        color: #000000;
+        text-align: center;
+        padding: 0px 0;
+        font-size: 150px;
+}
