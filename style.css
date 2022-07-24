@@ -41,7 +41,7 @@ body{
     outline: none;
     
 }
-.myname p{
+.myname a{
         font-family: 'Allison', cursive;
         position: absolute;
         bottom: 0;
