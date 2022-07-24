@@ -45,6 +45,7 @@ body{
         font-family: 'Allison', cursive;
         position: absolute;
         bottom: 0;
+        text-decoration: none;
         
         color: #000000;
         text-align: center;
